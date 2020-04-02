@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  
+    <script src="jquery-3.4.1.js"></script>
+  <title>PlayList</title>
+</head>
+<body>
+
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="mainmenu.html">Spotify DB</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+     
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Contenidos
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="playlist.html" >Playlist</a>
+          <a class="dropdown-item" href="genre.html" >Genre</a>
+          <a class="dropdown-item" href="invoice.html" >Invoice</a>
+          <a class="dropdown-item" href="album.html" >Album</a>
+          <a class="dropdown-item" href="artist.html" >Artist</a>
+          <a class="dropdown-item" href="mediatype.html" >MediaType</a>
+          <a class="dropdown-item" href="customer.html" >Customer</a>
+          <a class="dropdown-item" href="employee.html" >Employee</a>
+          <a class="dropdown-item" href="track.html" >Track</a>
+
+
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="mainmenu.html">Menu Principal</a>
+        </div>
+      </li>
+     
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+    </form>
+  </div>
+</nav>
+
+<div class="container">
+        <h1>Tabla PlayList</h1>
+          <table class="table table-hover"> 
+        <tbody>
+             <tr>
+         <td class="text-right" style="vertical-align: middle;">Nombre:</td>
+         <td>
+           <input type="text" name="nombre"  id="inputTextToSave" required class="form-control">
+         </td>
+             </tr>
+
+             
+
+              <tr>
+                 <td class="text-center" colspan="2">
+                   
+    <button type="button"  class="btn btn-primary">Guardar</button>
+    <a class="btn btn-danger" href="mainmenu.html">Cancelar</a>
+                 </td>
+               </tr> 
+        </tbody>
+          </table>
+     </div>  
+  
+
+</div>
+
+
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
